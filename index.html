@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EraaSoft - Your trip starts here</title>
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+
+  <!-- ============ NAVBAR ============ -->
+  <header class="navbar reveal-down">
+    <div class="container nav-inner">
+      <a href="#home" class="logo">
+        <img src="./img/logo.png" alt="EraaSoft" class="logo-img" />
+      </a>
+      <nav class="nav-links">
+        <a href="#home" class="active">Home</a>
+        <a href="#services">Services</a>
+        <a href="#about">About us</a>
+        <a href="#contact">Contact us</a>
+      </nav>
+      <div class="nav-actions">
+        <a href="#" class="btn-link">Log in</a>
+        <a href="#" class="btn btn-primary">Create account</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="home">
+    <img src="./img/hero.jpeg" alt="" class="hero-bg" />
+    <div class="hero-overlay"></div>
+    <div class="hero-content fade-up">
+      <h1 class="reveal-up" data-delay="100">Your trip starts here.</h1>
+      <p class="reveal-up" data-delay="300">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae libero cursus, suscipit risus eget, pretium nulla. Quisque molestie mauris.</p>
+      <a href="#" class="btn btn-primary btn-large reveal-up" data-delay="500">Book now</a>
+    </div>
+    <a href="#services" class="scroll-indicator" aria-label="Scroll down"></a>
+  </section>
+
+  <!-- ============ SERVICES ============ -->
+  <section class="services" id="services">
+    <div class="container">
+
+      <h2 class="section-title reveal-up">Our Services.</h2>
+      <p class="section-subtitle reveal-up" data-delay="150">
+        Everything you need for your next trip, from the first search to the last day.
+      </p>
+
+      <div class="services-grid">
+
+        <div class="service-card active reveal-up" data-delay="0">
+          <div class="service-icon"><img src="./img/icon-offers.png" alt=""></div>
+          <h3>Special offers</h3>
+          <p>Deals on flights, hotels and tours, updated every week so you don't pay full price.</p>
+        </div>
+
+        <div class="service-card reveal-up" data-delay="150">
+          <div class="service-icon"><img src="./img/icon-partners.png" alt=""></div>
+          <h3>Trusted partners</h3>
+          <p>We only work with hotels and tour companies that have good reviews from real travelers.</p>
+        </div>
+
+        <div class="service-card reveal-up" data-delay="300">
+          <div class="service-icon"><img src="./img/icon-tours.png" alt=""></div>
+          <h3>Local tours</h3>
+          <p>Guided tours and activities in the city you are visiting, booked in a few clicks.</p>
+        </div>
+
+        <div class="service-card reveal-up" data-delay="450">
+          <div class="service-icon"><img src="./img/icon-support.png" alt=""></div>
+          <h3>24/7 support</h3>
+          <p>Something went wrong with your booking? Our team is online all day to help.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TRAVEL SERVICES ============ -->
+  <section class="travel">
+    <div class="container travel-inner">
+      <div class="travel-text reveal-left">
+        <h2>Travel Services</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae libero cursus, suscipit risus eget, pretium nulla. Quisque molestie mauris et vestibulum fringilla. In pulvinar, libero aliquet ullamcorper interdum, orci neque condimentum nisl, at bibendum lectus erat sit amet enim. Duis sit amet turpis eu enim lobortis mollis eu eget sapien. Proin commodo justo nec risus aliquet imperdiet. Proin massa ex, sollicitudin a lacinia eget, tincidunt ac quam. Ut quis est at nisi viverra hendrerit. Vestibulum eget felis.</p>
+        <a href="#" class="btn btn-primary">Book now</a>
+      </div>
+      <div class="travel-image reveal-right" data-delay="200">
+        <img src="./img/travel-landscape.png" alt="Rainbow over a green landscape" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TABS / OFFERS ============ -->
+  <section class="tabs-section">
+    <div class="container">
+      <div class="tabs reveal-up">
+        <button class="tab active" data-tab="offers">Offers</button>
+        <button class="tab" data-tab="suggestions">Suggestions</button>
+        <button class="tab" data-tab="reviews">Reviews</button>
+      </div>
+      <div class="tab-content reveal-zoom" data-delay="200">
+        <div class="tab-pane active" id="offers">
+          <img src="./img/offer-beach.png" alt="Stony beach" />
+        </div>
+        <div class="tab-pane" id="suggestions">
+          <div class="pane-text">
+            <h3>Suggestions for you</h3>
+            <p>Trips we think you will like will show up here, based on the places you searched for before.</p>
+          </div>
+        </div>
+        <div class="tab-pane" id="reviews">
+          <div class="pane-text">
+            <h3>Reviews</h3>
+            <p>What other travelers say about their trips will show up here.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FAQ ============ -->
+  <section class="faq" id="about">
+    <div class="container">
+      <h2 class="section-title reveal-up">Lorem ipsum dolor sit amet</h2>
+      <p class="section-subtitle reveal-up" data-delay="150">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae libero cursus, suscipit risus eget, pretium nulla.</p>
+
+      <div class="accordion">
+        <div class="acc-item open reveal-up" data-delay="0">
+          <button class="acc-header">
+            <span>Dropdown menu</span>
+            <span class="acc-icon">⌄</span>
+          </button>
+          <div class="acc-body">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam molestiae, praesentium sint suscipit tempore, exercitationem animi sequi, non itaque adipisci aut obcaecati doloremque nulla quos laudantium ea vitae ex rem!</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam molestiae, praesentium sint suscipit tempore, exercitationem animi sequi, non itaque adipisci aut obcaecati doloremque nulla quos laudantium ea vitae ex rem!</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam molestiae, praesentium sint suscipit tempore, exercitationem animi sequi, non itaque adipisci aut obcaecati doloremque nulla quos laudantium ea vitae ex rem!</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam molestiae, praesentium sint suscipit tempore, exercitationem animi sequi, non itaque adipisci aut obcaecati doloremque nulla quos laudantium ea vitae ex rem!</p>
+          </div>
+        </div>
+        <div class="acc-item reveal-up" data-delay="150">
+          <button class="acc-header">
+            <span>Dropdown menu</span>
+            <span class="acc-icon">⌄</span>
+          </button>
+          <div class="acc-body">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus nisi quisquam illum iusto consequatur exercitationem. Odio non enim aliquam, quo repudiandae atque eos? Perferendis molestias animi nihil consequatur. Corporis, quidem.</p>
+          </div>
+        </div>
+        <div class="acc-item reveal-up" data-delay="300">
+          <button class="acc-header">
+            <span>Dropdown menu</span>
+            <span class="acc-icon">⌄</span>
+          </button>
+          <div class="acc-body">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam ea tenetur placeat cupiditate voluptate voluptatem, ipsum quasi incidunt quam, laudantium voluptatum numquam dolores maiores, sequi est rerum libero asperiores vel!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer" id="contact">
+    <div class="container footer-grid">
+      <div class="footer-col reveal-up" data-delay="0">
+        <div class="footer-logo">
+          <img src="./img/footer-logo.png" alt="Logoipsum" />
+        </div>
+        <div class="socials">
+          <a href="#" aria-label="YouTube"><img src="./img/youtube.png" alt="" /></a>
+          <a href="#" aria-label="LinkedIn"><img src="./img/linkedin.png" alt="" /></a>
+          <a href="#" aria-label="Instagram"><img src="./img/instagram.png" alt="" /></a>
+          <a href="#" aria-label="Facebook"><img src="./img/facebook.png" alt="" /></a>
+          <a href="#" aria-label="WhatsApp"><img src="./img/whatsapp.png" alt="" /></a>
+        </div>
+      </div>
+      <div class="footer-col reveal-up" data-delay="150">
+        <h4>Services</h4>
+        <a href="#">Services</a>
+        <a href="#">Services</a>
+        <a href="#">Services</a>
+      </div>
+      <div class="footer-col reveal-up" data-delay="300">
+        <h4>About Us</h4>
+        <a href="#">About Us</a>
+        <a href="#">About Us</a>
+        <a href="#">About Us</a>
+      </div>
+      <div class="footer-col reveal-up" data-delay="450">
+        <h4>Contact Us</h4>
+        <p>📞 +20 100 000 0000</p>
+        <p>✉ example@gmail.com</p>
+        <p>🕘 09:00 AM to 10:00 PM</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 EraaSoft. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Accordion: click on a header to open / close its item
+    document.querySelectorAll('.acc-header').forEach(function (header) {
+      header.addEventListener('click', function () {
+        header.parentElement.classList.toggle('open');
+      });
+    });
+
+    // Tabs: show the pane that matches the clicked tab
+    var tabs = document.querySelectorAll('.tab');
+    var panes = document.querySelectorAll('.tab-pane');
+
+    tabs.forEach(function (tab) {
+      tab.addEventListener('click', function () {
+        tabs.forEach(function (t) { t.classList.remove('active'); });
+        panes.forEach(function (p) { p.classList.remove('active'); });
+
+        tab.classList.add('active');
+        document.getElementById(tab.dataset.tab).classList.add('active');
+      });
+    });
+
+    // Reveal on scroll: add the "in" class when the element enters the screen
+    var revealEls = document.querySelectorAll(
+      '.reveal, .reveal-up, .reveal-down, .reveal-left, .reveal-right, .reveal-zoom'
+    );
+
+    var observer = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (!entry.isIntersecting) return;
+
+        var el = entry.target;
+        var delay = Number(el.dataset.delay) || 0;
+
+        el.style.transitionDelay = delay + 'ms';
+        el.classList.add('in');
+
+        // remove the delay after the animation, otherwise hover effects on
+        // the cards would also wait for it
+        setTimeout(function () { el.style.transitionDelay = ''; }, delay + 900);
+
+        observer.unobserve(el);
+      });
+    }, { threshold: 0.15 });
+
+    revealEls.forEach(function (el) { observer.observe(el); });
+
+    // Navbar gets a small shadow after scrolling
+    var nav = document.querySelector('.navbar');
+    window.addEventListener('scroll', function () {
+      nav.classList.toggle('scrolled', window.scrollY > 30);
+    });
+
+    // Tilt effect on the service cards
+    document.querySelectorAll('.service-card').forEach(function (card) {
+      card.addEventListener('mousemove', function (e) {
+        var rect = card.getBoundingClientRect();
+        var x = (e.clientX - rect.left) / rect.width - 0.5;
+        var y = (e.clientY - rect.top) / rect.height - 0.5;
+        card.style.transform = 'translateY(-8px) rotateX(' + (-y * 6) + 'deg) rotateY(' + (x * 6) + 'deg)';
+      });
+      card.addEventListener('mouseleave', function () {
+        card.style.transform = '';
+      });
+    });
+  </script>
+</body>
+</html>
